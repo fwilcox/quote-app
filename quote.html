@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam:700">
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/quote/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="/quote/scripts.js"></script>
+    <title>Random Quote App</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1>Don't Quote Me <small class="text-muted">Ever!</small></h1>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-sm-12 text-right"><i class="fa fa-chevron-down control chevron" aria-hidden="true"></i></div>
+        </div>
+        <div class="d-flex d-row intro">
+          <div class="p-2">
+            <img src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg" alt="headshot of president" class="profile">
+          </div>
+          <div class="p-2 align-self-end">
+            <h4 class="h6">Donald J. Trump <span class="handle"><small class="text-muted">@realDonaldTrump・1m</small></span></h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10">
+            <p id="quote" class="text"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10">
+            <span class="reply"><i class="fa fa-reply control" aria-hidden="true"></i></span>
+            <span class="retweet"><i class="fa fa-retweet control" aria-hidden="true"></i></span>
+            <span class="heart"><i class="fa fa-heart control" aria-hidden="true"></i></span>
+            <span class="envelope"><i class="fa fa-envelope control" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center nav-bottom">
+          <button id="getQuote" class="btn btn-primary">Quote Again</button>
+          <button id="twitter" class="btn btn-primary"><i class="fa fa-twitter" aria-hidden="true"></i> reTweet</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

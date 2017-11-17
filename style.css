@@ -1,0 +1,104 @@
+body {
+  background: #F5F8FA;
+  padding-top: 100px;
+}
+
+h1 {
+  color: #1DA1F2;
+}
+
+.wrapper {
+  background: #fff;
+  border: 1px solid #E6ECF0;
+}
+
+.profile {
+  border-radius: 10%;
+  height: 53px;
+  width: 53px;
+}
+
+.text {
+  padding: 1em;
+}
+
+.chevron {
+  padding-right: 1em;
+}
+
+.chevron:hover {
+  color: #0D5B73;
+}
+
+.control {
+  color: #CCD6DD;
+}
+
+.reply {
+  padding-left: 8%;
+}
+
+.reply i:hover {
+  color: #0D5B73;
+}
+
+.retweet {
+  padding-left: 20%;
+}
+
+.retweet i:hover {
+  color: #17BF63;
+}
+
+.heart {
+  padding-left: 20%;
+}
+
+.heart i:hover {
+  color: #E0245E;
+}
+
+.envelope {
+  padding-left: 20%;
+}
+
+.envelope i:hover {
+  color: #1DA1F2;
+}
+
+.nav-bottom {
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 75%;
+    margin-left: 12%;
+  }
+  .intro {
+    padding-left: 5%;
+  }
+  .text {
+    padding-left: 10%;
+  }
+  .reply {
+    padding-left: 21%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    width: 65%;
+    margin-left: 16%;
+  }
+  .intro {
+    padding-left: 10%;
+  }
+  .text {
+    padding-left: 15%;
+  }
+  .reply {
+    padding-left: 23%;
+  }
+}
